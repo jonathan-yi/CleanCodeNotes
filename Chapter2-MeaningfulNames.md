@@ -1,4 +1,6 @@
-Use Intention-Revealing Names
+# Meaningful Names - Chapter 2
+
+### Use Intention-Revealing Names
   - Name of variable, function, or class should tell you why it exists, what it does, and how it is used.
     - DONT:
     ```typescript
@@ -33,7 +35,7 @@ Use Intention-Revealing Names
       }
       ```
 
-Avoid Disinformation
+### Avoid Disinformation
   - Avoid leaving false clues that obscure meaning of code.
     - DONT:
       Referring a grouping of accounts as an AccountArray when the grouping isn't actually an array
@@ -44,7 +46,7 @@ Avoid Disinformation
       XYZControllerForEfficientHandlingOfStrings
       XYZControllerForEfficientStorageOfStrings
 
-Make Meaningful Distinctions
+### Make Meaningful Distinctions
   - Number-series naming (a1, a2, ... aN) are noninformative, provide no clue to author's intentions and should be avoided
     - DONT:
     ```typescript
